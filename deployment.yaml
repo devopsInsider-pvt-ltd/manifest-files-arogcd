@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: sandy-argocd-dep
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: nginx
@@ -17,4 +17,5 @@ spec:
           image: nginx
           ports:
           - containerPort: 80
+
 
