@@ -1,0 +1,3 @@
+deploymentName: helm-pod1
+ContainerName: sandy-container
+Images: nginx
